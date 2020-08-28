@@ -23,11 +23,11 @@ Dữ liệu sẻ được chủ động ghi nhận thông qua camera khi chạy 
 
 Bắt đầu thực hiện đăng ký khuôn mặt với 30 tắm hình và hệ thống sẻ tự động chọn và chụp các tắm hình khác nhau
 
-<!-- ![](/Users/admin/Job/attendance_checking_face_recognition/image_demo/dang_ky_khuon_mat.png) -->
+![](https://github.com/DuongQuocNghi/attendance_checking_face_recognition/blob/master/image_demo/dang_ky_khuon_mat.png?raw=true)
 
 Chụp hình đạt 100% để hoàn tất quá trình đăng ký
 
-<!-- ![](/Users/admin/Job/attendance_checking_face_recognition/image_demo/dang_ky_khuon_mat_100.png) -->
+![](https://github.com/DuongQuocNghi/attendance_checking_face_recognition/blob/master/image_demo/dang_ky_khuon_mat_100.png?raw=true)
 
 ```python
 import matplotlib.pylab as plt
@@ -94,7 +94,7 @@ while True:
 
 Chạy nhận diên để phát hiện khuôn mặt và ghi nhận thông tin
 
-<!-- ![](/Users/admin/Job/attendance_checking_face_recognition/image_demo/nhan_dien_khuon_mat.png) -->
+![](https://github.com/DuongQuocNghi/attendance_checking_face_recognition/blob/master/image_demo/nhan_dien_khuon_mat.png?raw=true)
 
 ```python
 start_input()  
@@ -120,9 +120,9 @@ while True:
 Nhận diện thành công tiến hành ghi nhận thông tin
 
 Ghi nhận vào file sheet trên google drive
-<!-- ![](/Users/admin/Job/attendance_checking_face_recognition/image_demo/ghi_nhan_thong_tin_tren_sheet.png) -->
+![](https://github.com/DuongQuocNghi/attendance_checking_face_recognition/blob/master/image_demo/ghi_nhan_thong_tin_tren_sheet.png?raw=true)
 Lưu lại hình ảnh lúc nhận diện thành công
-<!-- ![](/Users/admin/Job/attendance_checking_face_recognition/image_demo/ghi_nhan_hinh_anh_checking.png) -->
+![](https://github.com/DuongQuocNghi/attendance_checking_face_recognition/blob/master/image_demo/ghi_nhan_hinh_anh_checking.png?raw=true)
 
 ```python
     drawing_array, nameUser, accuracy = check_face(frame, js_reply['videoWidth'], js_reply['videoHeight'])   
@@ -132,7 +132,7 @@ Lưu lại hình ảnh lúc nhận diện thành công
       setCheckIn(nameUser,image_byte, accuracy) 
 ```
 
-## Thanks
+## Cảm ơn
 
 * Cảm ơn [ageitgey](https://https://github.com/ageitgey) đã tạo ra face_recognition, có các ví dụ cụ thể và cung cấp các hàm gọi tiện ích.
 * Cảm ơn tất cả những người làm việc trên tất cả các thư viện khoa học dữ liệu tuyệt vời của Python như numpy, scipy, scikit-image, gối, v.v. đã làm cho loại nội dung này trở nên dễ dàng và thú vị trong Python.
